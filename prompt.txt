@@ -1,0 +1,29 @@
+Hi Github Copilot, I plan to develop a Web App for my travel based on Github Pages, and the major functionality would be to input travel details (hotel & flight), plan my itinerary, mark spending, luggage checklist, shopping checklist, local information (weather, etc), currency converter.  This app should be general - I can select my travel locations everytime and store a trip (e.g. 2024 Aug Singapore, 2025 Sep Japan).  It would be similar to the Web App here: https://wcwwilliam.github.io/tokyo202604/ but you do not necessarily need to follow it.  
+
+Please write the one-page web app in HTML using vue.js and Tailwind CSS.  To elaborate from the above, please find the following specific requirements:
+
+Design: similar to a one-page mobile App which focuses on minimalistic design, card-based widgets / elements, pale-based colors. It would be similar to the Web App here: https://wcwwilliam.github.io/tokyo202604/ but you do not necessarily need to follow it. 
+
+Language:  Traditional Chinese
+
+Structure: First entering the site, it would be a well-designed Trip Selection menu to select a Trip or to create a new Trip, and input the dates.  After selecting / creating the trip, it would be the main page of the app which features the Top Banner, dates of the trip (horizontal scroll) main display area (vertical scroll), and bottom Tabs.  
+
+
+
+Top Banner: Trip title and today's currency according to Google Finance (trip location's currency to HKD  (e.g. 1 GBP = 10 HKD), or reverse (e.g. 1 HKD = 0.1 GBP), depending on which one does not show decimal: in this case, 1 GBP = 10 HKD.
+
+Tab: 
+Tab 1: Trip Information - Hotel (platform, Google Map location, booking ID), Flight (flight number, time, booking ID), Tourist information (e.g. emergency contact, medical contact) for that city / country.  The hotel / flight information could be input by user but the Tourist information could be auto-generated via AI?
+
+Tab 2: Itinerary similar to  https://wcwwilliam.github.io/tokyo202604/ 
+
+Tab 3: Spending similar to  https://wcwwilliam.github.io/tokyo202604/ 
+
+Tab 4: To-do list
+
+Tab 5: Settings to adjust the trip name, duration, etc.
+
+
+Again, it would be very similar to https://wcwwilliam.github.io/tokyo202604/ with refinements.
+
+Further, to allow easier revision, please also label and name the functionality above such that I can prompt you for specific revisions.  For example, "Trip Selection Menu", "Itinerary Tab", etc. 
